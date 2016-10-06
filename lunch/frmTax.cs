@@ -35,6 +35,7 @@ namespace lunch
             else
             {
                 this.Tag = textBox1.Text;
+                this.DialogResult = DialogResult.OK;
             }
         }
 
